@@ -19,7 +19,7 @@ const startServer = async () => {
 
     // Routes
     const authRoutes = require('./Server/routes/routes');
-    app.use('/auth', authRoutes);
+    app.use('/', authRoutes);
 
     // Start the server
     app.listen(port, () => {
