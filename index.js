@@ -10,7 +10,6 @@ app.use(cors());
 
 connectDB();
 
-
 app.use(express.json());
 
 
